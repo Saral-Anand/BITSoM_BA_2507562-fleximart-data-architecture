@@ -1,8 +1,8 @@
-\ Star Schema Design – FlexiMart Data Warehouse
+ Star Schema Design – FlexiMart Data Warehouse
 
 
 
-\ Section 1: Schema Overview
+ Section 1: Schema Overview
 
 
 
@@ -10,7 +10,7 @@ FlexiMart’s data warehouse is designed using a star schema to support efficien
 
 
 
-\ FACT TABLE: fact\_sales
+ FACT TABLE: fact\_sales
 
 
 
@@ -46,7 +46,7 @@ Foreign Keys:
 
 
 
-\ DIMENSION TABLE: dim\_date
+ DIMENSION TABLE: dim\_date
 
 
 
@@ -80,7 +80,7 @@ Attributes:
 
 
 
-\ DIMENSION TABLE: dim\_product
+ DIMENSION TABLE: dim\_product
 
 
 Purpose: Stores descriptive product information for product-level analysis.
@@ -107,7 +107,7 @@ Attributes:
 
 
 
-\ DIMENSION TABLE: dim\_customer
+ DIMENSION TABLE: dim\_customer
 
 
 
@@ -135,7 +135,7 @@ Attributes:
 
 
 
-\ Section 2: Design Decisions
+ Section 2: Design Decisions
 
 
 
@@ -155,7 +155,7 @@ The star schema separates measurable facts from descriptive dimensions, resultin
 
 
 
-\ Section 3: Sample Data Flow
+ Section 3: Sample Data Flow
 
 
 
